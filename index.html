@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Submit</title>
+<style>
+      div {
+        margin: 150px auto;
+        width: 350px;
+      }
+      input, label, textarea {
+        width: 100%;
+      }
+      input[type=submit]{
+        width: 100%;
+        padding: 0.5rem;
+        text-transform: uppercase;
+      }
+      img {
+        mix-blend-mode: multiply;
+        width: 128px;
+        display: block;
+        margin: 0 auto;
+      }
+	  </style>
+	  </head>
+    <body>
+	<div>
+	<img src="avatar.png">
+	<form action="https://formsubmit.co/badar.hafeez90@gmail.com" method="POST" />
+	<label for="name"> Name: </label>
+	<input type="text" name="name" id="name" required>
+	<label for="email"> Email:</label>
+	<input type="email"name="email"id="email" required>
+	<label for="message">Message:</label>
+	<textarea name="message"name="message"id="message" rows="10"></textarea>
+	<input type="submit"value="submit">
+	</form>
+	</div>
+	</body>
+	</html>
+	
